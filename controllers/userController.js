@@ -36,10 +36,22 @@ exports.getUserGroups = async(req, res, next) => {
 
 // User Login
 exports.loginUser = async (req, res, next) => {
-  const { email, password } = req.body;
-  activityLogger.info(`Login attempt for user with email ${email}.`);
+  const { userId , password } = req.body;
+  let email = "";
+  let username = "";
+  let user  ;
 
-  const user = await User.findOne({ email: email });
+  const emailRegex = /^[\w-]+(\.[\w-]+)*@([\w-]+\.)+[a-zA-Z]{2,7}$/;
+
+  if(emailRegex.test(userId)){
+    email = userId;
+    user = await User.findOne({ email: email });
+  }else{
+    username = userId;
+    user = await User.findOne({ username : username });
+  }
+
+
 
   if (!user) {
     errorLogger.error(`Login failed: User with email ${email} not found.`);
