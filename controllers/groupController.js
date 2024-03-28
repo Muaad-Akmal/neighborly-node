@@ -34,9 +34,12 @@ exports.addUser = async (req, res) => {
     if (result1.modifiedCount > 0 && result2.modifiedCount > 0) {
       // If both updates were successful, send a success response
       res.status(200).json({ message: 'User added to the group successfully.' });
-    } else {
+    }else if(result1.modifiedCount > 0 && result2.modifiedCount == 0){
+      res.status(200).json({ message: 'User already in the group.' });
+    }
+     else if(result1.modifiedCount == 0 && result2.modifiedCount > 0){
       // If no updates or only one update was successful, send a failure response
-      res.status(200).json({ message: 'Group not found or user already in the group.' });
+      res.status(200).json({ message: 'Group not found.' });
     }
   } catch (error) {
     // Handle unexpected errors, log them, and send an internal server error response
@@ -229,7 +232,8 @@ exports.nearestGroup = async (req, res) => {
 
     var nearGroupsList = nearbyGroups.map(group => ({
       groupname: group.name, 
-      topic: group.topic
+      topic: group.topic,
+      group_id: group._id,
     }));
 
   } catch (error) {

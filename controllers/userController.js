@@ -12,8 +12,6 @@ exports.loggedInUser = async (req, res, next) => {
   if(user){
     sendToken(user, 200, res);
     activityLogger.info(req.user+" has logged in.")
-    
-
   }
 };
 
@@ -43,8 +41,11 @@ exports.loginUser = async (req, res, next) => {
 
   const emailRegex = /^[\w-]+(\.[\w-]+)*@([\w-]+\.)+[a-zA-Z]{2,7}$/;
 
-  if(emailRegex.test(userId)){
-    email = userId;
+  try{
+
+    
+    if(emailRegex.test(userId)){
+      email = userId;
     user = await User.findOne({ email: email });
   }else{
     username = userId;
@@ -56,16 +57,24 @@ exports.loginUser = async (req, res, next) => {
   if (!user) {
     errorLogger.error(`Login failed: User with email ${email} not found.`);
     return next(new ErrorHandler("Invalid Email or Password", 401));
-    
   }
 
   const match = await user.comparePassword(password);
-
+  
   if (!match) {
     errorLogger.error('An unexpected error occurred during login:', error);
     return next(new ErrorHandler("Invalid Email or Password", 401));
     
   }
+  
+}catch(error){
+  errorLogger.error('An unexpected error occurred during login:', error);
+  console.log(error);
+  return next(new ErrorHandler("Invalid Email or Password", 401));
+}
+
+
+
 
   sendToken(user, 200, res);
 };
@@ -135,18 +144,21 @@ exports.validateUserGroup = async (req, res) => {
     });
   }
 };
+
 //Logout User
 exports.logoutUser = async (req, res, next) => {
   res.clearCookie("token");
-  activityLogger.info(`User with ID ${userID} is logged out.`);
+  // activityLogger.info(`User with ID ${userID} is logged out.`);
   res.status(200).json({
     success: true,
     message: "You have been successfully logged out"
   })
-
 }
+
+
 //Userinfo
 exports.userinfo = async(req,res) => {
   const user =  req.user ;   
   res.status(200).json(user);
 }
+

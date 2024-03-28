@@ -7,3 +7,175 @@ Error: Something went wrong
     at Module._load (node:internal/modules/cjs/loader:1023:12)
     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
     at node:internal/main/run_main_module:28:49
+25-03-2024 17:21:02 - ERROR: An uncaught exception occurred: userID is not defined
+ReferenceError: userID is not defined
+    at exports.logoutUser (E:\Batcave\Freelance\neighborly-node\controllers\userController.js:141:39)
+    at Layer.handle [as handle_request] (E:\Batcave\Freelance\neighborly-node\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Batcave\Freelance\neighborly-node\node_modules\express\lib\router\route.js:144:13)
+    at exports.isAuthenticated (E:\Batcave\Freelance\neighborly-node\middlewares\auth.js:15:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+25-03-2024 17:25:14 - ERROR: An uncaught exception occurred: userID is not defined
+ReferenceError: userID is not defined
+    at exports.logoutUser (E:\Batcave\Freelance\neighborly-node\controllers\userController.js:141:39)
+    at Layer.handle [as handle_request] (E:\Batcave\Freelance\neighborly-node\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Batcave\Freelance\neighborly-node\node_modules\express\lib\router\route.js:144:13)
+    at exports.isAuthenticated (E:\Batcave\Freelance\neighborly-node\middlewares\auth.js:15:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+25-03-2024 17:26:35 - ERROR: An uncaught exception occurred: userID is not defined
+ReferenceError: userID is not defined
+    at exports.logoutUser (E:\Batcave\Freelance\neighborly-node\controllers\userController.js:141:39)
+    at Layer.handle [as handle_request] (E:\Batcave\Freelance\neighborly-node\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Batcave\Freelance\neighborly-node\node_modules\express\lib\router\route.js:144:13)
+    at exports.isAuthenticated (E:\Batcave\Freelance\neighborly-node\middlewares\auth.js:15:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+26-03-2024 09:27:12 - ERROR: An uncaught exception occurred: userID is not defined
+ReferenceError: userID is not defined
+    at exports.logoutUser (E:\Batcave\neighborly-node\controllers\userController.js:141:39)
+    at Layer.handle [as handle_request] (E:\Batcave\neighborly-node\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Batcave\neighborly-node\node_modules\express\lib\router\route.js:144:13)
+    at exports.isAuthenticated (E:\Batcave\neighborly-node\middlewares\auth.js:15:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+26-03-2024 12:55:45 - ERROR: An uncaught exception occurred: userID is not defined
+ReferenceError: userID is not defined
+    at exports.logoutUser (E:\Batcave\neighborly-node\controllers\userController.js:141:39)
+    at Layer.handle [as handle_request] (E:\Batcave\neighborly-node\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Batcave\neighborly-node\node_modules\express\lib\router\route.js:144:13)
+    at exports.isAuthenticated (E:\Batcave\neighborly-node\middlewares\auth.js:15:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+26-03-2024 13:28:05 - ERROR: An uncaught exception occurred: userID is not defined
+ReferenceError: userID is not defined
+    at exports.logoutUser (E:\Batcave\neighborly-node\controllers\userController.js:141:39)
+    at Layer.handle [as handle_request] (E:\Batcave\neighborly-node\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Batcave\neighborly-node\node_modules\express\lib\router\route.js:144:13)
+    at exports.isAuthenticated (E:\Batcave\neighborly-node\middlewares\auth.js:15:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+26-03-2024 14:45:19 - ERROR: An uncaught exception occurred: error is not defined
+ReferenceError: error is not defined
+    at exports.loginUser (E:\Batcave\neighborly-node\controllers\userController.js:63:69)
+26-03-2024 14:45:43 - ERROR: An uncaught exception occurred: error is not defined
+ReferenceError: error is not defined
+    at exports.loginUser (E:\Batcave\neighborly-node\controllers\userController.js:63:69)
+26-03-2024 14:46:31 - ERROR: An uncaught exception occurred: error is not defined
+ReferenceError: error is not defined
+    at exports.loginUser (E:\Batcave\neighborly-node\controllers\userController.js:63:69)
+26-03-2024 14:47:24 - ERROR: An uncaught exception occurred: error is not defined
+ReferenceError: error is not defined
+    at exports.loginUser (E:\Batcave\neighborly-node\controllers\userController.js:64:69)
+26-03-2024 14:48:05 - ERROR: An uncaught exception occurred: error is not defined
+ReferenceError: error is not defined
+    at exports.loginUser (E:\Batcave\neighborly-node\controllers\userController.js:64:69)
+26-03-2024 14:48:42 - ERROR: An uncaught exception occurred: error is not defined
+ReferenceError: error is not defined
+    at exports.loginUser (E:\Batcave\neighborly-node\controllers\userController.js:64:69)
+26-03-2024 14:54:56 - ERROR: An uncaught exception occurred: userID is not defined
+ReferenceError: userID is not defined
+    at exports.logoutUser (E:\Batcave\neighborly-node\controllers\userController.js:138:39)
+    at Layer.handle [as handle_request] (E:\Batcave\neighborly-node\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Batcave\neighborly-node\node_modules\express\lib\router\route.js:144:13)
+    at exports.isAuthenticated (E:\Batcave\neighborly-node\middlewares\auth.js:15:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+26-03-2024 14:56:19 - ERROR: An uncaught exception occurred: userID is not defined
+ReferenceError: userID is not defined
+    at exports.logoutUser (E:\Batcave\neighborly-node\controllers\userController.js:138:39)
+    at Layer.handle [as handle_request] (E:\Batcave\neighborly-node\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Batcave\neighborly-node\node_modules\express\lib\router\route.js:144:13)
+    at exports.isAuthenticated (E:\Batcave\neighborly-node\middlewares\auth.js:15:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+26-03-2024 15:00:26 - ERROR: An uncaught exception occurred: error is not defined
+ReferenceError: error is not defined
+    at exports.loginUser (E:\Batcave\neighborly-node\controllers\userController.js:62:69)
+26-03-2024 15:01:57 - ERROR: Login failed: User with email  not found.
+undefined
+26-03-2024 15:02:10 - ERROR: An unexpected error occurred during login: error is not defined
+ReferenceError: error is not defined
+    at exports.loginUser (E:\Batcave\neighborly-node\controllers\userController.js:65:69)
+26-03-2024 16:48:50 - ERROR: An uncaught exception occurred: Cast to Number failed for value "NaN" (type number) at path "__QueryCasting__" for model "User"
+CastError: Cast to Number failed for value "NaN" (type number) at path "__QueryCasting__" for model "User"
+    at SchemaNumber.cast (E:\Batcave\neighborly-node\node_modules\mongoose\lib\schema\number.js:380:11)
+    at SchemaType.applySetters (E:\Batcave\neighborly-node\node_modules\mongoose\lib\schemaType.js:1219:12)
+    at SchemaNumber.castForQuery (E:\Batcave\neighborly-node\node_modules\mongoose\lib\schema\number.js:432:14)
+    at E:\Batcave\neighborly-node\node_modules\mongoose\lib\cast.js:393:27
+    at Array.forEach (<anonymous>)
+    at _cast (E:\Batcave\neighborly-node\node_modules\mongoose\lib\cast.js:389:9)
+    at cast (E:\Batcave\neighborly-node\node_modules\mongoose\lib\cast.js:275:13)
+    at Query.cast (E:\Batcave\neighborly-node\node_modules\mongoose\lib\query.js:4769:12)
+    at Query._castConditions (E:\Batcave\neighborly-node\node_modules\mongoose\lib\query.js:2200:10)
+    at model.Query._find (E:\Batcave\neighborly-node\node_modules\mongoose\lib\query.js:2226:8)
+26-03-2024 16:49:26 - ERROR: An uncaught exception occurred: Cast to Number failed for value "NaN" (type number) at path "__QueryCasting__" for model "User"
+CastError: Cast to Number failed for value "NaN" (type number) at path "__QueryCasting__" for model "User"
+    at SchemaNumber.cast (E:\Batcave\neighborly-node\node_modules\mongoose\lib\schema\number.js:380:11)
+    at SchemaType.applySetters (E:\Batcave\neighborly-node\node_modules\mongoose\lib\schemaType.js:1219:12)
+    at SchemaNumber.castForQuery (E:\Batcave\neighborly-node\node_modules\mongoose\lib\schema\number.js:432:14)
+    at E:\Batcave\neighborly-node\node_modules\mongoose\lib\cast.js:393:27
+    at Array.forEach (<anonymous>)
+    at _cast (E:\Batcave\neighborly-node\node_modules\mongoose\lib\cast.js:389:9)
+    at cast (E:\Batcave\neighborly-node\node_modules\mongoose\lib\cast.js:275:13)
+    at Query.cast (E:\Batcave\neighborly-node\node_modules\mongoose\lib\query.js:4769:12)
+    at Query._castConditions (E:\Batcave\neighborly-node\node_modules\mongoose\lib\query.js:2200:10)
+    at model.Query._find (E:\Batcave\neighborly-node\node_modules\mongoose\lib\query.js:2226:8)
+28-03-2024 09:56:29 - ERROR: An unexpected error occurred during updating permanent group field: Cannot read properties of undefined (reading 'body')
+TypeError: Cannot read properties of undefined (reading 'body')
+    at exports.makeGroupPermanent (E:\Batcave\neighborly-node\controllers\groupController.js:54:32)
+    at Layer.handle [as handle_request] (E:\Batcave\neighborly-node\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Batcave\neighborly-node\node_modules\express\lib\router\route.js:144:13)
+    at exports.isAuthenticated (E:\Batcave\neighborly-node\middlewares\auth.js:15:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+28-03-2024 09:58:03 - ERROR: An unexpected error occurred during updating permanent group field: Cannot read properties of undefined (reading 'body')
+TypeError: Cannot read properties of undefined (reading 'body')
+    at exports.makeGroupPermanent (E:\Batcave\neighborly-node\controllers\groupController.js:54:32)
+    at Layer.handle [as handle_request] (E:\Batcave\neighborly-node\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Batcave\neighborly-node\node_modules\express\lib\router\route.js:144:13)
+    at exports.isAuthenticated (E:\Batcave\neighborly-node\middlewares\auth.js:15:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+28-03-2024 10:10:00 - ERROR: An unexpected error occurred during group creation: Cannot read properties of undefined (reading 'forEach')
+TypeError: Cannot read properties of undefined (reading 'forEach')
+    at exports.createGroup (E:\Batcave\neighborly-node\controllers\groupController.js:143:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+28-03-2024 10:17:41 - ERROR: An unexpected error occurred during adding user to group: Cannot read properties of null (reading 'username')
+TypeError: Cannot read properties of null (reading 'username')
+    at exports.addUser (E:\Batcave\neighborly-node\controllers\groupController.js:29:88)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+28-03-2024 10:18:53 - ERROR: An unexpected error occurred during adding user to group: Cannot read properties of null (reading 'username')
+TypeError: Cannot read properties of null (reading 'username')
+    at exports.addUser (E:\Batcave\neighborly-node\controllers\groupController.js:29:88)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+28-03-2024 10:31:10 - ERROR: An unexpected error occurred during group creation: Cannot read properties of undefined (reading 'forEach')
+TypeError: Cannot read properties of undefined (reading 'forEach')
+    at exports.createGroup (E:\Batcave\neighborly-node\controllers\groupController.js:145:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+28-03-2024 10:33:03 - ERROR: An unexpected error occurred during group creation: Cannot read properties of undefined (reading 'forEach')
+TypeError: Cannot read properties of undefined (reading 'forEach')
+    at exports.createGroup (E:\Batcave\neighborly-node\controllers\groupController.js:145:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+28-03-2024 11:30:11 - ERROR: An uncaught exception occurred: getaddrinfo ENOTFOUND ac-jvzfql4-shard-00-01.cncxy2q.mongodb.net
+MongoServerSelectionError: getaddrinfo ENOTFOUND ac-jvzfql4-shard-00-01.cncxy2q.mongodb.net
+    at EventTarget.<anonymous> (E:\Batcave\neighborly-node\node_modules\mongodb\lib\sdam\topology.js:276:34)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:822:20)
+    at EventTarget.dispatchEvent (node:internal/event_target:757:26)
+    at abortSignal (node:internal/abort_controller:374:10)
+    at TimeoutController.abort (node:internal/abort_controller:396:5)
+    at Timeout.<anonymous> (E:\Batcave\neighborly-node\node_modules\mongodb\lib\utils.js:1010:92)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+28-03-2024 17:14:00 - ERROR: An uncaught exception occurred: F84E0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1586:SSL alert number 80
+
+MongoServerSelectionError: F84E0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1586:SSL alert number 80
+
+    at EventTarget.<anonymous> (E:\Batcave\neighborly-node\node_modules\mongodb\lib\sdam\topology.js:276:34)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:822:20)
+    at EventTarget.dispatchEvent (node:internal/event_target:757:26)
+    at abortSignal (node:internal/abort_controller:374:10)
+    at TimeoutController.abort (node:internal/abort_controller:396:5)
+    at Timeout.<anonymous> (E:\Batcave\neighborly-node\node_modules\mongodb\lib\utils.js:1010:92)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+28-03-2024 17:18:55 - ERROR: An unexpected error occurred during login: Operation `users.findOne()` buffering timed out after 10000ms
+MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (E:\Batcave\neighborly-node\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:186:23)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+28-03-2024 17:18:59 - ERROR: An unexpected error occurred during login: Operation `users.findOne()` buffering timed out after 10000ms
+MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (E:\Batcave\neighborly-node\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:186:23)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
